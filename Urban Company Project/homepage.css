@@ -114,18 +114,6 @@ a:hover {
     padding: 5% 3% 5% 3%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-
-#special>div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    width: 96%;
-}
-
-#special img {
-    width: 100%;
-}
-
 /* 4.best offer div  */
 #bestoffer {
     padding: 2% 3% 2% 3%;
@@ -225,6 +213,12 @@ a:hover {
 #footer h4,#footer h2{
     color: white;
 }
-#div2>div:hover,#special>div>div:hover,#bestoffer>div>div:hover,#appliance>div>div:hover,.small:hover,#salon>div>div :hover{
+#footer >div:first-child{
+    border: 1px solid white;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+#div2>div:hover,#bestoffer>div>div:hover,#appliance>div>div:hover,.small:hover,#salon>div>div :hover{
     transform: scale(1.2); 
 }
