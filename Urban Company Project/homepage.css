@@ -1,0 +1,230 @@
+/* 1. div 1 style */
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+#outerdiv {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 0;
+    height: 600px;
+    width: 100%;
+}
+
+#div1 {
+    background-image: url(https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg);
+    background-size: 100% 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+#navigation {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+#navigation>img {
+    height: 100%;
+}
+
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#src {
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    height: 40px;
+}
+
+#src>select {
+    width: 20%;
+    height: 100%;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+
+#src>input {
+    border: 0;
+    width: 78%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+
+#links {
+    width: 40%;
+    margin: auto;
+}
+
+a,
+#links span,
+#div1 p,
+#div1 h1 {
+    color: white;
+}
+
+#div1 p,
+#div1 h1 {
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(12, 238, 87);
+}
+
+/*  2. div 2 style */
+#div2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 3px;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#div2>div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#div2 span {
+    text-align: center;
+}
+
+#div2 img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 70%;
+}
+
+/* 3.special div design  */
+#special {
+    padding: 5% 3% 5% 3%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#special>div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 96%;
+}
+
+#special img {
+    width: 100%;
+}
+
+/* 4.best offer div  */
+#bestoffer {
+    padding: 2% 3% 2% 3%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#bestoffer>div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 96%;
+}
+
+#bestoffer img {
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+}
+
+#bestoffer h1,
+#bestoffer p,
+#bestoffer h5 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 5.appliance div  */
+#appliance {
+    padding: 2% 3% 2% 3%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#appliance>div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 96%;
+}
+
+#appliance img {
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+}
+
+#appliance h1,
+#appliance p,
+#appliance h5 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 6.salon div  */
+#salon {
+    padding: 2% 3% 2% 3%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#salon>div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 96%;
+}
+
+#salon img {
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+}
+
+#salon h1,
+#salon p,
+#salon h5 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 11,12,13 no div  */
+.small img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.small{
+    padding: 0 3% 0 3%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+/* 14.footer part  */
+#footer{
+    background-color: black;
+    padding-left: 20px;
+}
+#footer h4,#footer h2{
+    color: white;
+}
+#div2>div:hover,#special>div>div:hover,#bestoffer>div>div:hover,#appliance>div>div:hover,.small:hover,#salon>div>div :hover{
+    transform: scale(1.2); 
+}
