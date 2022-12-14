@@ -5,9 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>Linx Company</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="homepage.css">
 </head>
+<style media="screen">
+    .carousel-cell{
+        width: 25%;
+        margin-right: 10px;
+    }
+    .carousel-cell:before{
+        display: block;
+    }
+</style>
 
 <body>
     <div id="outerdiv">
@@ -78,21 +90,29 @@
 
     <!--3. special div  -->
     <div id="special">
-        <div>
-            <div>
-                <img
-                    src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670236808636-f1d72e.jpeg">
+        <div class="carousel" data-flickity='{"autoplay":true}'>
+            <div class="carousel-cell">
+                <img class="w3-image"
+                src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670236808636-f1d72e.jpeg">
             </div>
-            <div>
-                <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670833924412-eb2825.jpeg"
+            <div class="carousel-cell">
+                <img class="w3-image" src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670833924412-eb2825.jpeg"
                     alt="">
             </div>
-            <div>
-                <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670236804067-9a707d.jpeg"
+            <div class="carousel-cell">
+                <img class="w3-image" src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670236804067-9a707d.jpeg"
                     alt="">
             </div>
-            <div>
-                <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670833903513-3409ad.jpeg"
+            <div class="carousel-cell">
+                <img class="w3-image" src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670833903513-3409ad.jpeg"
+                    alt="">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670236785661-0598c2.jpeg"
+                alt="">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_568/t_high_res_template/images/growth/luminosity/1670236836216-f4b990.jpeg"
                     alt="">
             </div>
         </div>
@@ -264,6 +284,10 @@
                 </div>
             </div>
         </div>
+    </div> 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
