@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>Linx Company</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -28,10 +27,11 @@
         <div id="div1">
             <div id="navigation">
                 <img src="logo.png" alt="">
-                <nav>
+                <nav id="navBar">
                     <a href="">Blog</a>
                     <a href="">Register as a Professional</a>
                     <!-- <a href="">My Bookings</a> -->
+                    <!-- append  -->
                     <a class="login-btn" href="#">Login/Sign Up</a>
                 </nav>
             </div>
@@ -318,45 +318,35 @@
     <!-- black layer 1 -->
     <div class="overLayer1"></div>
     <!-- login form  -->
-    <div class="loginForm">
+    <form action class="loginForm">
         <h1>Log In</h1>
         <span class="del">&times;</span>
-        <div>
-            <label for="">User Name:</label>
-            <input type="email" placeholder="Email Id">
-            <i class="fa-envelope"></i>
-        </div>
-        <div>
-            <label for="">Password:</label>
-            <input type="password"  placeholder="Password">
-        </div>
+        <label for="">User Name:</label>
+        <input type="email" id="newEmail" placeholder="Email Id">
+        <label for=""> Password:</label>
+        <input type="password" id="password" placeholder="Password">
         <button id="sub-log">Log In</button>
         <p>New User? <a class="signup-btn" href="#">Sign Up</a></p>
-    </div>
+    </form>
 
     <!-- sign up  -->
 
-     <!-- black layer 2 -->
-     <div class="overLayer2"></div>
-      <!-- signup form  -->
-    <div class="signupForm">
+    <!-- black layer 2 -->
+    <div class="overLayer2"></div>
+    <!-- signup form  -->
+    <form action class="signupForm">
         <h1>Sign Up</h1>
         <span class="clr">&times;</span>
-        <div>
-            <label for="">User Name:</label>
-            <input type="email" placeholder="Email Id">
-        </div>
-        <div>
-            <label for=""> Create Password:</label>
-            <input type="password" placeholder="Password">
-        </div>
-        <div>
-            <label for=""> Conform Password:</label>
-            <input type="password"  placeholder="Password">
-        </div>
+        <label for="">User Name:</label>
+        <input type="email" id="email" placeholder="Email Id">
+        <label for=""> Create Password:</label>
+        <input type="password" id="createPass" placeholder="Password">
+        <label for=""> Conform Password:</label>
+        <input type="password" id="confPass" placeholder="Password">
         <button id="sub-sign">Sign Up</button>
         <p>Already have an account? <a class="login-btn" href="#">Log In</a></p>
-    </div>
+    </form>
+    <!-- </div> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

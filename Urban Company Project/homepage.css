@@ -28,6 +28,9 @@ body {
     display: flex;
     height: 60px;
     justify-content: space-between;
+    position:n;
+    z-index: 50;
+    top: 0;
 }
 
 #navigation>img {
@@ -326,6 +329,7 @@ hr{
     color: white;
     background-color: red;
     text-align: center;
+    cursor: pointer;
 }
 .loginForm p,.signupForm p{
     text-align: center;
