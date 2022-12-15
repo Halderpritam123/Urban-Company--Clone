@@ -1,4 +1,7 @@
 /* 1. div 1 style */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     margin: 0;
     padding: 0;
@@ -64,12 +67,18 @@ nav {
     width: 40%;
     margin: auto;
 }
-
+a{
+    text-decoration: none;
+    margin-right: 12px;
+}
 a,
 #links span,
 #div1 p,
 #div1 h1 {
     color: white;
+}
+h1{
+    font-weight: bold;
 }
 
 #div1 p,
@@ -214,11 +223,147 @@ a:hover {
     color: white;
 }
 #footer >div:first-child{
-    border: 1px solid white;
     height: 40px;
     display: flex;
     justify-content: space-around;
 }
+hr{
+    border: none;
+    outline: none;
+    height: 1px;
+    background: rgb(228, 231, 233);
+    width: 100%;
+}
 #div2>div:hover,#bestoffer>div>div:hover,#appliance>div>div:hover,.small:hover,#salon>div>div :hover{
     transform: scale(1.2); 
 }
+#store{
+    display:flex;
+    justify-content: space-between;
+}
+#store img{
+    width: 100%;
+}
+#store p{
+    color: white;
+}
+#store>div{
+    width: 20%;
+    margin: auto;
+}
+/* overlayer setup 1 */
+.overLayer1{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0;
+    transition: 1s;
+}
+.showOverLayer1{
+    z-index: 1;
+    opacity: 1;
+    
+}
+/* overlayer setup 2 */
+.overLayer2{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0;
+    transition: 1s;
+}
+.showOverLayer2{
+    z-index: 1;
+    opacity: 1;
+    
+}
+/* login */
+.loginForm{
+    width:350px;
+    border-radius: 7px;
+    padding: 30px 20px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, -50%);
+    transition: 2s;
+}
+.showLogin{
+    top: 50%;
+    z-index: 5;
+}
+.loginForm input{
+    width: 100%;
+    margin-bottom: 15px;
+    height:35px;
+}
+.loginForm button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.loginForm span,.signupForm span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+.loginForm p,.signupForm p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.loginForm a,.signupForm a{
+    color: blue;
+}
+
+ /* sign up  */
+   .signupForm{
+    width:350px;
+    border-radius: 7px;
+    padding: 30px 20px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, -50%);
+    transition: 2s;
+}
+.showSignup{
+    top: 50%;
+    z-index: 5;
+}
+.signupForm input{
+    width: 100%;
+    margin-bottom: 15px;
+    height:35px;
+}
+.signupForm button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 200px;
+    display: block;
+    margin: auto;
+} 
