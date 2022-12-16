@@ -74,14 +74,14 @@ let loginData=document.getElementById("sub-log")
 
 loginData.addEventListener("click",login)
 let userName;
-let password
+let password;
 let nav=document.getElementById("navBar");
 function login(){
      userName=document.getElementById("newEmail").value
      password=document.getElementById("password").value
     let temp=false;
    lsData.forEach((element,index) => {
-        if(userName===element.userId && password===element.createPassword){
+        if(userName===element.userId && password==element.createPassword){
             temp=true;
         }
     });
@@ -91,9 +91,10 @@ console.log(temp)
         alert("Log In Successful")
         loginBtn.innerHTML=null  
         let para=document.createElement("p")
+        // para.innerText=userName;
         para.innerText=userName;
         nav.append(para);
-        //    loginBtnText=userName;
+        
     }else{
         alert("Email or Password is incorrect")
     }

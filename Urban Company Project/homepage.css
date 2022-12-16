@@ -28,21 +28,25 @@ body {
     display: flex;
     height: 60px;
     justify-content: space-between;
-    position:n;
-    z-index: 50;
-    top: 0;
+    /* position:sticky;
+    z-index: 100;
+    top: 0; */
 }
 
 #navigation>img {
     height: 100%;
 }
 
-nav {
+#navBar{
+    
     width: 40%;
+    position:sticky;
+    z-index: 100;
+    top: 0;
     display: flex;
     justify-content: space-around;
+   
 }
-
 #src {
     /* border: 2px solid red; */
     width: 70%;
@@ -94,6 +98,15 @@ a:hover {
 }
 
 /*  2. div 2 style */
+#product a{
+    color: black;
+}
+#product img{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 60%;
+}
 #div2 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -371,3 +384,25 @@ hr{
     display: block;
     margin: auto;
 } 
+/* log out  */
+/* #logOutForm{
+    width:200px;
+    border-radius: 7px;
+    padding: 30px 20px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 2s;
+}
+#logOutForm button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    display: block;
+    margin: auto;
+}  */
