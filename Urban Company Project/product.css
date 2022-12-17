@@ -50,7 +50,8 @@
   }
   #filterDiv > div img{
     border-radius: 3px;
-    border: 1px solid blue;
+    
+    /* border: 1px solid blue; */
   }
   #filterDiv > div p{
     font-size: 65%;
@@ -59,11 +60,14 @@
 
   #footer{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 60% 40%;
   }
   /* product part  */
   #product{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
     
   /* discount banner  */
@@ -71,18 +75,64 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding-top: 50px;
     padding-left: 70px;
-    display: grid;
-    grid-template-columns: 1;
-    gap: 15px;
+    /* position: sticky;
+    top: 0; */
+    position: sticky;
+    float: right;
   }
   #discount-banner div{
     border-radius: 7px;
     width: 80%;
     background-color:rgb(182, 175, 175);
     padding: 15px;
+    height: 27px;
+    margin: 12px;
   }
   #discount-banner img{
     width: 15px;
     margin-right: 10px;
   }
+
+   /* append div styling  */
+   .seperate{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 25px;
+   }
+   .seperate > div:first-child{
+    width: 70%;
+    /* border: 2px solid red; */
+   }
+   .seperate > div:last-child{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    width: 30%;
+    /* border: 2px solid rgb(47, 0, 255); */
+   }
+   .add-btn{
+    display: block;
+    margin: auto;
+    background-color: rgb(154, 154, 243);
+    padding: 10px;
+    border: 0;
+    width: 70px;
+    border-radius: 7px;
+   }
+   .seperate > div:last-child img{
+    width: 100%;
+    border-radius: 7px;
+   }
+   #cart-btn{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: 0;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: rgb(115, 222, 226);
+   }
+   a{
+    text-decoration: none;
+   }
 

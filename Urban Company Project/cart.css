@@ -1,0 +1,40 @@
+
+*{font-family: Arial, Helvetica, sans-serif;}
+  
+  #fst {
+    background-image: url("https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_380,dpr_1,fl_progressive:steep,q_auto,c_limit/images/growth/customer-subscription/1626412065267-9d72ed.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-position-x: right;
+    background-position-y: -200px;
+    background-size: 450px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #fst img{
+    width: 7%;
+  }
+  #fst > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 10%;
+    margin-top: 50px;
+  }
+  
+  #fst > :first-child > img {
+    width: 18%;
+    margin-top: 50px;
+  }
+  #fst > div > :last-child {
+    display: flex;
+    color: rgb(131, 188, 166);
+    font-size: 14px;
+    align-items: center;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+ 
