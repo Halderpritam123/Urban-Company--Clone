@@ -1,6 +1,11 @@
 
-*{font-family: Arial, Helvetica, sans-serif;}
-  
+*{font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin-left: 5%;
+ 
+}
+
   #fst {
     background-image: url("https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_380,dpr_1,fl_progressive:steep,q_auto,c_limit/images/growth/customer-subscription/1626412065267-9d72ed.png");
     background-repeat: no-repeat;
@@ -13,6 +18,7 @@
   }
   #fst img{
     width: 7%;
+
   }
   #fst > div {
     display: flex;
@@ -20,7 +26,6 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    margin-left: 10%;
     margin-top: 50px;
   }
   
@@ -36,5 +41,205 @@
     font-weight: 400;
     line-height: 24px;
   }
+  #benefit1,#benefit2{
+    display: flex;
+  }
+  #benefit2 img,#benefit1 img {
+    width: 100%;
+  }
+  #benefit2> div:first-child,#benefit1> div:first-child{
+    width: 5%;
+  }
+  #body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+  #benefit{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   padding: 10px;
+    border-radius: 7px;
+  }
+  #saving{
+    display: flex;
+    justify-content: space-between;
+  }
+  #period{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 7px;
+  }
+  #period span{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid rgb(108, 108, 243);
+    text-align: center;
+  }
+  #card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+  }
+  #card div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+  }
+  #card div:nth-child(1){
+    background-color: #A5D6A7;
+  }
+  #card div:nth-child(2){
+    background-color: #B3E5FC;
+  }
+  #card div:nth-child(3){
+    background-color: #FFE082;
+  }
+  #card div:nth-child(4){
+    background-color: #FF8A65;
+  }
+
+  /* faq */
+  #faq-question > div {
+    border-bottom: 1px solid silver;
+  }
+  #question1,#question2,#question3,#question4,#question5,#question6{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+  }
+  #faq-question > div > :last-child {
+    font-size: 13px;
+  }
+
+  /* plus member  */
+  .member{
+    display: flex;
+  }
+  .member > div:last-child{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+  }
+  #plusMemberBtn{
+    width: 40%;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #BA68C8;
+    display: block;
+    margin: auto;
+  }
+  /* plans css */
+  .Plans{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 7px;
+    padding: 10px;
+  }
+  #plansdiv > div{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
   
+  }
+  .Plans button{
+    height: 25px;
+    width: 40px;
+    border-radius: 5px;
+  }
+  #plansdiv{
+    padding: 15px;
+  }
+  hr{
+    border: none;
+    outline: none;
+    height: 5px;
+    background: rgb(228, 231, 233);
+    width: 100%;
+}
+a{
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}
+.seperate{
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 25px;
+ }
+ .seperate > div:first-child{
+  width: 70%;
+  /* border: 2px solid red; */
+ }
+ .seperate > div:last-child{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  width: 30%;
+  /* border: 2px solid rgb(47, 0, 255); */
+ }
+ .seperate > div:last-child img{
+  width: 100%;
+  border-radius: 7px;
+ }
+ #cart-product{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+/* proceed */
+#procced {
+  width: 93%;
+  float: right;
+  background-color: white;
+  display: flex;
+  flex-shrink: 0;
+  position: sticky;
+  bottom: 0;
+  margin-right: 8%;
+  flex-direction: column;
+}
+#procced > p {
+  background-color: #edf7f2;
+  text-align: center;
+  color: #095f3c;
+  padding: 5px 0;
+}
+#procced > div {
+  display: flex;
+  justify-content: space-between;
+}
+#procced > div > div {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+#procced > div > a {
+  width: 50%;
+}
+#payment {
+  background-color: #6e42e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+#total {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#sprice {
+  font-size: 16px;
+  text-decoration: line-through;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ 
  

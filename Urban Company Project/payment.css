@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+  }
+  #Parent {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    padding-left: 25px;
+    margin-top: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  form {
+    font-size: 18px;
+    align-items: center;
+  }
+
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 87%;
+    border-radius: 7px;
+  }
+
+  input[type="month"] {
+    width: 87%;
+  }
+
+  input[type="submit"] {
+    width: 97%;
+    background-color: rgb(28, 0, 128);
+    color: white;
+    border-radius: 10px;
+    border: none;
+  }
+  #Pay:hover {
+    transform: scale(1.055);
+    background-color: rgb(68, 39, 236);
+  }
