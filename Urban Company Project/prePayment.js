@@ -39,3 +39,4 @@ let container=document.getElementById("products")
       products.append(productsTitle, productsImg)
       container.append(products)
     })
+    

@@ -21,3 +21,4 @@ document.querySelector("form").addEventListener("submit", Payment);
       alert("Enter correct information");
     }
   }
+  
