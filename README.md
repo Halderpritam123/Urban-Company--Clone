@@ -1,4 +1,4 @@
-# defiant-wash-9428
+# Urban Company
 Urban company Clone:
 Netlify Link:-https://linxcompany.netlify.app/
 ![Screenshot](https://github.com/Halderpritam123/Project-sss/blob/main/uc1.png)
