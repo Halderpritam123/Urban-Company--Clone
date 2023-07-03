@@ -30,6 +30,8 @@ Folder Structure:
 │   ├── cart.html
 │   ├── cart.js
 </pre>
+![image](https://github.com/Halderpritam123/Urban-Company--Clone/assets/115460430/6d615696-3284-48f4-8b20-fbda9ca02655)
+
 ![Screenshot](https://github.com/Halderpritam123/Project-sss/blob/main/uc1.png)
 ![Screenshot](https://github.com/Halderpritam123/Project-sss/blob/main/uc2.png)
 ![Screenshot](https://github.com/Halderpritam123/Project-sss/blob/main/uc3.png)
