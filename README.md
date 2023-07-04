@@ -30,6 +30,9 @@ Folder Structure:
 │   ├── cart.html
 │   ├── cart.js
 </pre>
+
+<h3> only salon for men page working</h3>
+
 ![image](https://github.com/Halderpritam123/Urban-Company--Clone/assets/115460430/75630c08-3cd2-45c8-9c3b-e13cba1900c9)
 ![image](https://github.com/Halderpritam123/Urban-Company--Clone/assets/115460430/07bf9940-36a6-41ac-b7e0-471339dda9f0)
 ![image](https://github.com/Halderpritam123/Urban-Company--Clone/assets/115460430/d1911d87-cd6c-46a3-a3a8-76e2b049bfc1)
